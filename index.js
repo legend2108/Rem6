@@ -61,9 +61,9 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n'//JANGAN DI GANTI ANJING
             + 'VERSION:3.0\n'//JANGAN DI GANTI ANJING,NTAR EROR
-            + 'FN:Mr.108P\n' // GANTI NAMA LU BODOH
-            + 'ORG: REMBOT;\n'//GANTI NAMA BOT LUH BANGSAT
-            + 'TEL;type=CELL;type=VOICE;waid=6281534162316:+62 815-3416-2316\n' // GANTI NOMOR LU BEGONIAN
+            + 'FN:Mr.Eddy\n' // GANTI NAMA LU BODOH
+            + 'ORG: EDDBOT;\n'//GANTI NAMA BOT LUH BANGSAT
+            + 'TEL;type=CELL;type=VOICE;waid=62895377298173:+62 895-3772-98173\n' // GANTI NOMOR LU BEGONIAN
             + 'END:VCARD'
 // UDAH SEGITU KONTOLL KEBAWAH BIARIN AJA
 const ngonsol = JSON.parse(fs.readFileSync('./settings/Rem.json'))
